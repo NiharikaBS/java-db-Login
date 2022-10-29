@@ -94,6 +94,7 @@
       tags: docker-image-build
     - debug:
         var: out5
+        source: build
 
 - name: "Play 3 docker stack deploy"
   hosts: dockerMaster
